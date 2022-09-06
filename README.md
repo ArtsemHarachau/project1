@@ -63,19 +63,18 @@ Author: Artsem Harachau
 
 ## Przejście przez ważne momenty kodu
 
-        1. W funkcji prepare_users_df stworzyłem kod dla dwóch przypadków features: one-hot encoding oraz prawdopodobieństwo wartości
+1. W funkcji prepare_users_df stworzyłem kod dla dwóch przypadków features: one-hot encoding oraz prawdopodobieństwo wartości
 
-        2. W funkcji prepare_items_df stworzyłem kod dla dwóch przypadków features: one-hot encoding oraz features oparte na minimalnych oraz maksymalnych wartościach numerycznych kolumn w dataframe
+2. W funkcji prepare_items_df stworzyłem kod dla dwóch przypadków features: one-hot encoding oraz features oparte na minimalnych oraz maksymalnych wartościach numerycznych kolumn w dataframe
 
-        3. Żeby sprawdzić te metody w rekomenderze wystarczy odkomentować odpowiedni kod w tych funkcjach i zakomentować kod innej metody
+3. Żeby sprawdzić te metody w rekomenderze wystarczy odkomentować odpowiedni kod w tych funkcjach i zakomentować kod innej metody
 
-        Uwaga:
-              1. W przypadku testowania users features opartego na prawdopodobieństwach wartości w metodzie fit rekomendera trzeba odkomentować linijkę kodu `interactions_df = interactions_df.fillna(0).astype(int)`.
-                 W innych przypadkach ona nie jest potrzebna.
+Uwaga:
+      1. W przypadku testowania users features opartego na prawdopodobieństwach wartości w metodzie fit rekomendera trzeba odkomentować linijkę kodu `interactions_df = interactions_df.fillna(0).astype(int)`.
+         W innych przypadkach ona nie jest potrzebna.
 
-              2. W przypadku testowania rekomendera na modelu SVRCBUIRecommender trzeba odkomentować w metodzie fit linijkę `interactions_df = interactions_df.sample(frac=0.05)`.
-                 Ta linijka weźmie tylko 5% danych z dataframe. Ja sprawdzałem na podziałach danych 70%, 50%, 30%, która żadna(oprócz 5%) tak i nie uruchomiła tuningu. Domyślam się
-                 że po godzinach, kiedy przerywałem proces dane ciągle się ładowały do modelu. W przypadku z 5% danych oni też ładowały się kilka godzin, chociaż ostatecznie tuning zaczął działać.
+      2. W przypadku testowania rekomendera na modelu SVRCBUIRecommender trzeba odkomentować w metodzie fit linijkę `interactions_df = interactions_df.sample(frac=0.05)`.
+         Ta linijka weźmie tylko 5% danych z dataframe. Ja sprawdzałem na podziałach danych 70%, 50%, 30%, która żadna(oprócz 5%) tak i nie uruchomiła tuningu.     Domyślam się, że po godzinach, kiedy przerywałem proces dane ciągle się ładowały do modelu. W przypadku z 5% danych oni też ładowały się kilka godzin, chociaż ostatecznie tuning zaczął działać.
 
 
 
