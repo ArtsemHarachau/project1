@@ -96,7 +96,7 @@ Author: Artsem Harachau
 
         1. User features - one-hot encoding, items features - min-max values
            [project1](https://github.com/ArtsemHarachau/project1/master/project1/tuning_screens/combine_images_one-hot_min-max.png)
-	   ![alt text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_one-hot_min-max.png?raw=true)
+	   ![alt text](https://github.com/ArtsemHarachau/project1/master/project1/tuning_screens/combine_images_one-hot_min-max.png?raw=true)
 
         2. User features - one-hot encoding, items features - one-hot encoding
 
