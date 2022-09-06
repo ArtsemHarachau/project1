@@ -95,7 +95,7 @@ Author: Artsem Harachau
         #Wyniki tuningu w porównaniu z AmazonRecommender
 
         1. User features - one-hot encoding, items features - min-max values
-           ![alt text](project1/tuning_screens/combine_images_one-hot_min-max.png)
+           ![alt text]([project1](https://github.com/ArtsemHarachau/project1/project1/tuning_screens/combine_images_one-hot_min-max.png)
 
         2. User features - one-hot encoding, items features - one-hot encoding
 
