@@ -95,19 +95,21 @@ Uwaga: tuning modeli zwłaszcza na max_evals > 10, zajmuje dosyć dużo czasu i 
         
 Wyniki tuningu w porównaniu z AmazonRecommender:
 
-        1. User features - one-hot encoding, items features - min-max values
+1. User features - one-hot encoding, items features - min-max values
 	
 ![Image text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_one-hot_min-max.png?raw=true)
 
-        2. User features - one-hot encoding, items features - one-hot encoding
+2. User features - one-hot encoding, items features - one-hot encoding
+
 ![Image text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_one-hot_one-hot.png?raw=true)
 
-        3. User features - probability of values, items features - min-max values
+3. User features - probability of values, items features - min-max values
+
 ![Image text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_prob_min-max.png?raw=true)
 
-        4. User features - probability of values, items features - one-hot encoding
+4. User features - probability of values, items features - one-hot encoding
 
-
+![Image text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_prob_one-hot.png?raw=true)
 
 
 
