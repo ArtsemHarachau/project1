@@ -93,7 +93,7 @@ Tuning Modeli:
 Uwaga: tuning modeli zwłaszcza na max_evals > 10, zajmuje dosyć dużo czasu i zauważyłem, że zależy od method robienia features oraz wydajnego kodu w generowaniu negative_features w metodzie fit rekomendera.
 
         
-#Wyniki tuningu w porównaniu z AmazonRecommender
+Wyniki tuningu w porównaniu z AmazonRecommender:
 
         1. User features - one-hot encoding, items features - min-max values
 	
@@ -103,7 +103,7 @@ Uwaga: tuning modeli zwłaszcza na max_evals > 10, zajmuje dosyć dużo czasu i 
 ![Image text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_one-hot_one-hot.png?raw=true)
 
         3. User features - probability of values, items features - min-max values
-
+![Image text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_prob_min-max.png?raw=true)
 
         4. User features - probability of values, items features - one-hot encoding
 
