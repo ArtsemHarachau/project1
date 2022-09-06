@@ -81,11 +81,13 @@ Author: Artsem Harachau
 
 ## Testowanie rekomendera na różnych modelach i różnych kombinacji features
 
-        Tuning Modeli:
+Tuning Modeli:
 
-        1. LinearRegressionCBUIRecommender, LassoRegressionCBUIRecommender - tuning zawsze uruchamiałem na max_evals=10
-        2. LassoCVRegressionCBUIRecommender, RandomForestCBUIRecommender, SVRCBUIRecommender - tuning na max_evals=100
-        3. XGBoostCBUIRecommender - tuning na max_evals=300
+1. LinearRegressionCBUIRecommender, LassoRegressionCBUIRecommender - tuning zawsze uruchamiałem na max_evals=10
+
+2. LassoCVRegressionCBUIRecommender, RandomForestCBUIRecommender, SVRCBUIRecommender - tuning na max_evals=100
+
+3. XGBoostCBUIRecommender - tuning na max_evals=300
 
 
         Uwaga: tuning modeli zwłaszcza na max_evals > 10, zajmuje dosyć dużo czasu i zauważyłem, że zależy od method robienia features
