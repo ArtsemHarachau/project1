@@ -70,6 +70,7 @@ Author: Artsem Harachau
 3. Żeby sprawdzić te metody w rekomenderze wystarczy odkomentować odpowiedni kod w tych funkcjach i zakomentować kod innej metody
 
 Uwaga:
+      
       1. W przypadku testowania users features opartego na prawdopodobieństwach wartości w metodzie fit rekomendera trzeba odkomentować linijkę kodu `interactions_df = interactions_df.fillna(0).astype(int)`.
          W innych przypadkach ona nie jest potrzebna.
 
