@@ -90,18 +90,17 @@ Tuning Modeli:
 3. XGBoostCBUIRecommender - tuning na max_evals=300
 
 
-        Uwaga: tuning modeli zwłaszcza na max_evals > 10, zajmuje dosyć dużo czasu i zauważyłem, że zależy od method robienia features
-               oraz wydajnego kodu w generowaniu negative_features w metodzie fit rekomendera.
+Uwaga: tuning modeli zwłaszcza na max_evals > 10, zajmuje dosyć dużo czasu i zauważyłem, że zależy od method robienia features oraz wydajnego kodu w generowaniu negative_features w metodzie fit rekomendera.
 
         
-        Wyniki tuningu w porównaniu z AmazonRecommender
+#Wyniki tuningu w porównaniu z AmazonRecommender
 
         1. User features - one-hot encoding, items features - min-max values
 	
 ![Image text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_one-hot_min-max.png?raw=true)
 
         2. User features - one-hot encoding, items features - one-hot encoding
-
+![Image text](https://github.com/ArtsemHarachau/project1/blob/master/project1/tuning_screens/combine_images_one-hot_one-hot.png?raw=true)
 
         3. User features - probability of values, items features - min-max values
 
